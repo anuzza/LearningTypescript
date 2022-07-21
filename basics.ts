@@ -5,7 +5,7 @@
 //Primitives
 let age: number;
 age = 25;
-let username: string;
+let username: string | string[];
 username = "anuzza";
 let isStudent: boolean;
 isStudent = true;
@@ -33,6 +33,6 @@ let people: {
 
 //Type inference
 
-let course = "React-The Complete Guide";
+let course: string | number = "React-The Complete Guide";
 
-//course=98509;
+course = 98509;
