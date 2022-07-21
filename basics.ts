@@ -15,10 +15,12 @@ let hobbies: string[];
 
 hobbies = ["sports", "music", "cooking"];
 
-let person: {
+type Person = {
   name: string;
   age: number;
 };
+
+let person: Person;
 
 person = {
   name: "Max",
@@ -26,10 +28,7 @@ person = {
 };
 
 //array of objects
-let people: {
-  name: string;
-  age: number;
-}[];
+let people: Person[];
 
 //Type inference
 
